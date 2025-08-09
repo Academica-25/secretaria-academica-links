@@ -1,4 +1,4 @@
-i<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -11,35 +11,52 @@ i<!DOCTYPE html>
             margin: 0;
             padding: 20px;
         }
+
         header {
             text-align: center;
-            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Franja blanca para el logo */
+        .franja-blanca {
+            background-color: white;
+            padding: 15px;
+        }
+
+        .franja-blanca img {
+            max-width: 200px; /* Ajusta tamaño del logo */
+            height: auto;
+        }
+
+        /* Franja rojo vino para el texto */
+        .franja-roja {
             background-color: #800000; /* Rojo vino */
             color: white;
+            padding: 15px;
         }
-       header img {
-            max-width: 200px; /* Ajusta el tamaño del logo */
-            height: auto;
-            display: block;
-            margin: 0 auto 10px auto;
-        }
+
         h2 {
             border-bottom: 2px solid #800000; /* Rojo vino */
             padding-bottom: 5px;
             color: #800000;
+            font-size: 1.3em;
         }
+
         ul {
             list-style: none;
             padding: 0;
         }
+
         li {
             margin: 8px 0;
         }
+
         a {
             color: #800000; /* Rojo vino */
             text-decoration: none;
             font-weight: bold;
         }
+
         a:hover {
             text-decoration: underline;
         }
@@ -48,47 +65,41 @@ i<!DOCTYPE html>
 <body>
 
 <header>
-    <!-- Cambia "logo-oteima.png" por la ruta o URL real del logo -->
- <img src="logo-oteima.jpeg" alt="Logo OTEIMA">
-    <h1>Secretaría Académica</h1>
-    <p>Enlaces de uso interno</p>
+    <div class="franja-blanca">
+        <img src="logo-oteima.jpeg" alt="Logo OTEIMA">
+    </div>
+    <div class="franja-roja">
+        <h1>Secretaría Académica</h1>
+        <p>Enlaces de uso interno</p>
+    </div>
 </header>
 
 <section>
-    <h2>Enlaces de Seguimiento Académico</h2>
+    <h2>📚 Enlaces de Seguimiento Académico</h2>
     <ul>
         <li><a href="https://docs.google.com/spreadsheets/d/1G-YT5--UC2IHJEYjXASXBShg621tnmtf35vtyHZGCxI/edit?usp=sharing">Examen de Suficiencia</a></li>
-        <li><a href="hhttps://docs.google.com/spreadsheets/d/1IFwCHxoExWGgjVB8NdfILYi1OhpMc-HOdDsYaK_44pk/edit?usp=sharing">Examen de Rehabilitación</a></li>
+        <li><a href="https://docs.google.com/spreadsheets/d/1IFwCHxoExWGgjVB8NdfILYi1OhpMc-HOdDsYaK_44pk/edit?usp=sharing">Examen de Rehabilitación</a></li>
         <li><a href="https://docs.google.com/spreadsheets/d/1AumBBAOXNIAL5zCogY0nFuX0UpXyRdflRI3p-Cup8wk/edit?usp=sharing">Reclamo de Calificaciones</a></li>
         <li><a href="https://docs.google.com/spreadsheets/d/1WL3-vlrce6gkSXfmAgKHt4Rfz6sXRIzqwqqyse4yyOo/edit?usp=sharing">Gestión de Retiros</a></li>
-        <li><a href="https://docs.google.com/spreadsheets/d/1xVwPpxjLRNaYCRgoXQuLhZqdo0_kr3YS7TCjTvHEeXc/edit?usp=sharing">Gestion de Inclusiones</a></li>
+        <li><a href="https://docs.google.com/spreadsheets/d/1xVwPpxjLRNaYCRgoXQuLhZqdo0_kr3YS7TCjTvHEeXc/edit?usp=sharing">Gestión de Inclusiones</a></li>
         <li><a href="https://docs.google.com/spreadsheets/d/1rBfgQ5wkfqs7m6bffO0ad9YKWgyf_fa7ZPobdGEMR3c/edit?usp=sharing">Solicitud de Tutorías</a></li>
     </ul>
 </section>
 
 <section>
-    <h2>Seguimiento de Créditos y Certificaciones</h2>
+    <h2>📖 Seguimiento de Créditos y Certificaciones</h2>
     <ul>
         <li><a href="https://docs.google.com/spreadsheets/d/1JFAaA3tEG0RQZuKuaLr6pDdfTg84MzWWCmGZP1pCfgw/edit?usp=sharing">Solicitud de Documentos</a></li>
-       
     </ul>
 </section>
 
 <section>
-    <h2>Revisión Académica Antes de la Emisión de Diplomas</h2>
+    <h2>🎓 Revisión Académica Antes de la Emisión de Diplomas</h2>
     <ul>
         <li><a href="https://docs.google.com/spreadsheets/d/1yr6hM17nE8qgs2rdt3midFv0Zt8--u5W89OJfxAjV_o/edit?usp=sharing">Control de Revisión Académica</a></li>
         <li><a href="https://docs.google.com/spreadsheets/d/1PHxkLXiaDQrNmG2S8JEBDfc_XpK2ay74kIax6riYIr0/edit?usp=sharing">Control de Solicitud de Diplomas</a></li>
-           </ul>
-</section>
-    
-<section>
-    <h2>Resoluciones y Contenidos para Imprimir</h2>
-    <ul>
-        <li><a href="https://drive.google.com/drive/folders/1vWKruNv3vHb6sk0vPSZsYHvhE0MH5Kmj?usp=sharing">Repositorio de Resoluciones</a></li>
-        <li><a href="https://drive.google.com/drive/folders/1qN7-mnuRjLF7fRmJtLMcILX59WSiMbv7?usp=sharing">Contenidos para Imprimir</a></li>
-           </ul>
+    </ul>
 </section>
 
-</body>
-</html>
+<section>
+    <h2>📝 Resoluciones y Contenidos para Impr
